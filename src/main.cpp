@@ -1,6 +1,5 @@
 #include "setup/wifi.h"
 
-// -------- DEFAULT SKETCH PARAMETERS --------
 const int SKETCH_VERSION = 1; 
 const String IFTTT_WEBHOOK = "";
 
