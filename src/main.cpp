@@ -9,10 +9,6 @@ JSONVar data;
 
 void setup() {
 	Serial.begin(74880);
-
-	data["value1"] = "Smoke Alert";
-	data["value2"] = "Smoke detected. Please take action asap!!!";
-
 	espwifi.wifiConnect();
 }
 
